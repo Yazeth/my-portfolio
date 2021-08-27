@@ -23,6 +23,7 @@ class App extends Component{
             </LinkContainer>
           </Nav>
         </Navbar>
+        <br />
       </div>
     );
   }
