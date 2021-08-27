@@ -1,10 +1,21 @@
 import React, { Component } from "react";
+import "./About.css";
 
 class About extends Component {
   
   render() {
     return (
-      <div>ABOUT</div>
+      <div>
+        ABOUT
+        <br />
+        <a href="https://github.com/Yazeth">
+          <img className="github" src={process.env.PUBLIC_URL + "GitHub_Logo.png"} alt=""/>
+        </a>
+        <br />
+        <a href="https://www.linkedin.com/in/kevin-le-cs/">
+          <img className="linkedin" src={process.env.PUBLIC_URL + "Linkedin-Logo.png"} alt=""/>
+        </a>
+      </div>
     );
   }
 }
