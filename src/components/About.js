@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import "./About.css";
+import "./About.scss";
 
 class About extends Component {
   
   render() {
     return (
       <div>
-        ABOUT
         <br />
         <a href="https://github.com/Yazeth">
           <img className="github" src={process.env.PUBLIC_URL + "GitHub_Logo.png"} alt=""/>
