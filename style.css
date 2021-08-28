@@ -1,0 +1,38 @@
+.navbar{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+html, body {
+  height: 100%
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 20px;
+  background-image: url("resources/pexels-stephan-seeber-1054222.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+p { 
+  text-indent: 30px;
+}
+
+.card {
+  margin: 10px;
+}
+
+#about {
+  background-color: rgba(255, 255, 255, .95);
+}
+
+#projects {
+  background-color: rgba(0, 0, 0, 0.80);
+}
+
